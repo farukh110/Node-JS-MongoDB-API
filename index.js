@@ -42,6 +42,8 @@ app.get('/add-note', async (req, res) => {
             }
         ]);
 
+        res.send('Books added');
+
     } catch (error) {
         console.log(`error: ${error}`);
     }
